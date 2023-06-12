@@ -488,7 +488,7 @@ const Search = () => {
     )
     console.log(filteredObj)
 
-    let response = fetch('https://jarvis-back-end.vercel.app/search', {
+    let response = fetch('http://127.0.0.1:5000/search', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
