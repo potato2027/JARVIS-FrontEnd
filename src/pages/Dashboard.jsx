@@ -26,7 +26,7 @@ import {
   ResponsiveContainer
 } from 'recharts'
 
-// import USAmap from 'react-usa-map'
+import USAmap from 'react-usa-map'
 
 const Dashboard = () => {
   const [Data, setData] = useState([7044, 1869, 5174])
